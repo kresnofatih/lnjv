@@ -11,8 +11,10 @@ public class Main {
         int apiKey = 5;
         double numData = 4.0;
         boolean marStatus = false;
+        char indexKardel = 'A';
         System.out.println(apiKey);
         System.out.println(numData);
         System.out.println(marStatus);
+        System.out.println(indexKardel);
     }
 }
