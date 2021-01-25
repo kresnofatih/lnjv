@@ -2,5 +2,6 @@ rem To run this bat file, you need to be outside the bin and src file. if succes
 cd src
 javac com\fatih\Main.java -d ..\bin
 cd ..\bin
+cls
 java com.fatih.Main
 cd ..
