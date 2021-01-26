@@ -36,5 +36,19 @@ public class Main {
         System.out.println("max: "+Long.MAX_VALUE);
         System.out.println("byt: "+Long.BYTES);
         System.out.println("bit: "+Long.SIZE);
+        //long
+        char e = 'a';
+        System.out.println("==long==");
+        System.out.println(e);
+        System.out.println("min: "+Character.MIN_VALUE);
+        System.out.println("max: "+Character.MAX_VALUE);
+        System.out.println("byt: "+Character.BYTES);
+        System.out.println("bit: "+Character.SIZE);
+        //bool
+        boolean f = true;
+        System.out.println("==boolean==");
+        System.out.println(f);
+        System.out.println("max: "+Boolean.TRUE);
+        System.out.println("max: "+Boolean.FALSE);
     }
 }
