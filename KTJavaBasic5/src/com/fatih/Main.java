@@ -3,20 +3,38 @@ package com.fatih;
 public class Main {
     public static void main(String[] args){
         // create variables
-        int x = 10;
-        System.out.println("Nilai x = "+x);
-        x = 20;
-        System.out.println("Nilai x = "+x);
-        // System.out.println(args[0]);
-        // System.out.println(args[1]);
-        // System.out.println("hello "+args[1]);
-        // int apiKey = 5;
-        // double numData = 4.0;
-        // boolean marStatus = false;
-        // char indexKardel = 'A';
-        // System.out.println(apiKey);
-        // System.out.println(numData);
-        // System.out.println(marStatus);
-        // System.out.println(indexKardel);
+        // integer, byte, short, long, double, float, char, boolean
+        //integer
+        int a = 10;
+        System.out.println("==integer==");
+        System.out.println(a);
+        System.out.println("min: "+Integer.MIN_VALUE);
+        System.out.println("max: "+Integer.MAX_VALUE);
+        System.out.println("byt: "+Integer.BYTES);
+        System.out.println("bit: "+Integer.SIZE);
+        //byte
+        byte b = 2;
+        System.out.println("==byte==");
+        System.out.println(b);
+        System.out.println("min: "+Byte.MIN_VALUE);
+        System.out.println("max: "+Byte.MAX_VALUE);
+        System.out.println("byt: "+Byte.BYTES);
+        System.out.println("bit: "+Byte.SIZE);
+        //short
+        short c = 2;
+        System.out.println("==short==");
+        System.out.println(c);
+        System.out.println("min: "+Short.MIN_VALUE);
+        System.out.println("max: "+Short.MAX_VALUE);
+        System.out.println("byt: "+Short.BYTES);
+        System.out.println("bit: "+Short.SIZE);
+        //long
+        long d = 2;
+        System.out.println("==long==");
+        System.out.println(d);
+        System.out.println("min: "+Long.MIN_VALUE);
+        System.out.println("max: "+Long.MAX_VALUE);
+        System.out.println("byt: "+Long.BYTES);
+        System.out.println("bit: "+Long.SIZE);
     }
 }
