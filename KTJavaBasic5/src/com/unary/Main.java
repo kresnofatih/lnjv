@@ -19,5 +19,15 @@ public class Main {
         System.out.println("suffix2+ "+(angka2)+" "+(angka2++));
         boolean b = true;
         System.out.println("prefix! "+(!b));
+        angka2+=3;
+        System.out.println(angka2);
+        angka2/=3;
+        System.out.println(angka2);
+        angka2*=7;
+        System.out.println(angka2);
+        angka2-=7;
+        System.out.println(angka2);
+        angka2%=3;
+        System.out.println(angka2);
     }
 }
