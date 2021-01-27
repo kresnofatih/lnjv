@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "input dgn scanner"
+git commit -m "if/elseif/else"
 git push origin master

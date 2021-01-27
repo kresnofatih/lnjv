@@ -1,7 +1,7 @@
 rem To run this bat file, you need to be outside the bin and src file. if successful, class exe will be available in the bin folder. you are redirected to the initial loc.
 cd src
-javac com\compare\Main.java -d ..\bin
+javac com\conditional\Main.java -d ..\bin
 cd ..\bin
 cls
-java com.compare.Main
+java com.conditional.Main
 cd ..
