@@ -12,5 +12,12 @@ public class Main {
         System.out.println("suffix2+ "+(angka2)+" "+(angka2));
         angka2--;
         System.out.println("suffix2- "+(angka2)+" "+(angka2));
+        //suffix2prefix2
+        angka2=6;
+        System.out.println("prefix2+ "+(angka2)+" "+(++angka2));
+        angka2=6;
+        System.out.println("suffix2+ "+(angka2)+" "+(angka2++));
+        boolean b = true;
+        System.out.println("prefix! "+(!b));
     }
 }
