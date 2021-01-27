@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "operator assignment"
+git commit -m "operator komparasi"
 git push origin master
