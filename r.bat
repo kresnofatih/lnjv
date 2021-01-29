@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "void and nonvoid functions"
+git commit -m "triangle function practice"
 git push origin master
