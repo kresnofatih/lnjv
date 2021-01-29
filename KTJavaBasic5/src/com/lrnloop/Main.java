@@ -13,5 +13,9 @@ public class Main {
             System.out.println(b);
             b++;
         }while(b<=10);
+        //
+        for(int c=1; c<=10; c++){
+            System.out.println(c);
+        }
     }
 }
