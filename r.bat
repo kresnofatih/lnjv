@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "triangle function practice"
+git commit -m "function practice"
 git push origin master
