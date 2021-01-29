@@ -23,6 +23,10 @@ public class Main {
             
         }
 
+        int xy = userInput.nextInt();
+        String resultStatus = (xy>8) ? ">8" : "<=8";
+        System.out.println(resultStatus);
+
         userInput.close();
 
     }
