@@ -7,5 +7,11 @@ public class Main {
             System.out.println(a);
             a++;
         }
+        //
+        int b = 1;
+        do {
+            System.out.println(b);
+            b++;
+        }while(b<=10);
     }
 }
