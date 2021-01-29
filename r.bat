@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "switchcase and break"
+git commit -m "while loop"
 git push origin master
