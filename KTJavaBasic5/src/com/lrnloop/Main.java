@@ -7,7 +7,6 @@ public class Main {
         // System.out.println(y);
         printFiveTimes(y);
         printTriangle(y);
-        printDiamond(4);
     }
     private static void printFiveTimes(int inputX){
         for(int i=1; i<=5; i++){
@@ -21,21 +20,6 @@ public class Main {
                     System.out.println("o");
                 } else {
                     System.out.print("o");
-                }
-            }
-        }
-    }
-    private static void printDiamond(int inputX){
-        for(int i=1; i<=2*inputX; i++){
-            for(int j=1; j<=2*inputX; j++){
-                if(j==2*inputX){
-                    System.out.println("_");
-                } else {
-                    if(j==inputX || j==inputX+1){
-                        System.out.print("O");
-                    }else {
-                        System.out.print("_");
-                    }
                 }
             }
         }
