@@ -28,5 +28,6 @@ public class Main {
         // int lebar = 5;
         int luas = panjang*lebar;
         System.out.println(panjang+" "+lebar+" "+luas);
+        userInput.close();
     }
 }
