@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "trying emojis on code, 2d arrays :fire:"
+git commit -m "string handling, intro - :dromedary_camel:"
 git push origin master
