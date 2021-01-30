@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "overload function"
+git commit -m "declaring arrays"
 git push origin master
