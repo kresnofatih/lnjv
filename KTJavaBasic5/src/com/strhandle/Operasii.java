@@ -1,5 +1,7 @@
 package com.strhandle;
 
+import java.lang.StringBuilder;
+
 public class Operasii {
     public static void main(String[] args){
         String kalimat = "saya fatih";
@@ -16,5 +18,8 @@ public class Operasii {
         String kalimat4 = kalimat.replace("fatih", "irhamzaki");
         System.out.println(kalimat4);
         System.out.println(kalimat);
+        // stringbuilder
+        StringBuilder builder = new StringBuilder("halo");
+        System.out.println("strbldr: "+ builder);
     }
 }
