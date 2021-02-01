@@ -1,4 +1,4 @@
 git add .
 git status
-git commit -m "string builder - :smiley_cat:"
+git commit -m "string formatter - :smiley_cat:"
 git push origin master

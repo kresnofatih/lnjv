@@ -21,5 +21,6 @@ public class Operasii {
         // stringbuilder
         StringBuilder builder = new StringBuilder("halo");
         System.out.println("strbldr: "+ builder);
+        // format string
     }
 }
